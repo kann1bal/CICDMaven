@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk
-MAINTAINER Daniel Persson (mohamedzied.barketallah@esprit.tn)
+MAINTAINER Med Zied (mohamedzied.barketallah@esprit.tn)
 RUN apt-get update
 RUN apt-get install -y maven
 COPY pom.xml /usr/local/service/pom.xml
